@@ -2,7 +2,7 @@
 // Lean, dependency-free. Highlights the active section in the topnav as you scroll.
 (function () {
   'use strict';
-  var sections = ['runtimes', 'agents', 'workspace', 'manifesto'];
+  var sections = ['runtimes', 'agents', 'workspace', 'skills', 'manifesto'];
   var navLinks = {};
   document.querySelectorAll('.topnav a').forEach(function (a) {
     var id = a.getAttribute('href');
